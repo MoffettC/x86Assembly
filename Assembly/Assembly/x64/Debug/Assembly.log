@@ -1,0 +1,35 @@
+﻿Build started 10/15/2016 10:27:22 AM.
+     1>Project "C:\Users\20ninjas\Documents\Visual Studio 2015\Projects\Assembly\Assembly\Assembly.vcxproj" on node 2 (Build target(s)).
+     1>_MASM:
+         Assembling Chris_Moffett_Week8_Group_AddSub.asm...
+         cmd.exe /C "C:\Users\20ninjas\AppData\Local\Temp\tmp39fca3e2b1da476eaa8c9c97a621ae05.cmd"
+         ml64.exe /c /nologo /Zi /Fo"x64\Debug\Chris_Moffett_Week8_Group_AddSub.obj" /W3 /errorReport:prompt  /TaChris_Moffett_Week8_Group_AddSub.asm
+     1>Chris_Moffett_Week8_Group_AddSub.asm(7): error A2008: syntChris_Moffett_Week8_Group_AddSub.asm(8)fied size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(8): error A2008: syntChris_Moffett_Week8_Group_AddSub.asm(9)fied size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(9): error A2008: syntChris_Moffett_Week8_Group_AddSub.asm(32)ified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(32): error A2070: invalid instructioChris_Moffett_Week8_Group_AddSub.asm(34)ified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(34): error A2070: invalid instructioChris_Moffett_Week8_Group_AddSub.asm(35)ified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(35): error A2070: invalid instructioChris_Moffett_Week8_Group_AddSub.asm(54)ified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(54): error A2070: invalid instructioChris_Moffett_Week8_Group_AddSub.asm(55)ified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(55): error A2070: invalid instructioChris_Moffett_Week8_Group_AddSub.asm(57)ified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(57): error A2070: invalid instructioChris_Moffett_Week8_Group_AddSub.asm(69)ified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(69): error A2070: invalid instructioChris_Moffett_Week8_Group_AddSub.asm(71)ified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(71): error A2070: invalid instructioChris_Moffett_Week8_Group_AddSub.asm(72)ified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(72): error A2070: invalid instructioChris_Moffett_Week8_Group_AddSub.asm(90)ified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(90): error A2070: invalid instructioChris_Moffett_Week8_Group_AddSub.asm(91)ified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(91): error A2070: invalid instructioChris_Moffett_Week8_Group_AddSub.asm(93)ified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(93): error A2070: invalid instructioChris_Moffett_Week8_Group_AddSub.asm(107)cified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(107): error A2070: invalid instructiChris_Moffett_Week8_Group_AddSub.asm(109)cified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(109): error A2070: invalid instructiChris_Moffett_Week8_Group_AddSub.asm(121)cified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(121): error A2070: invalid instructiChris_Moffett_Week8_Group_AddSub.asm(123)cified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(123): error A2070: invalid instructiChris_Moffett_Week8_Group_AddSub.asm(124)cified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(124): error A2070: invalid instructiChris_Moffett_Week8_Group_AddSub.asm(127)cified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(127): error A2070: invalid instructiChris_Moffett_Week8_Group_AddSub.asm(132)cified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(132): error A2070: invalid instructiChris_Moffett_Week8_Group_AddSub.asm(134)cified size
+     1>Chris_Moffett_Week8_Group_AddSub.asm(134): error A2070: invalid instructi
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\BuildCustomizations\masm.targets(50,5): error MSB3721: The command "ml64.exe /c /nologo /Zi /Fo"x64\Debug\Chris_Moffett_Week8_Group_AddSub.obj" /W3 /errorReport:prompt  /TaChris_Moffett_Week8_Group_AddSub.asm" exited with code 1.
+     1>Done Building Project "C:\Users\20ninjas\Documents\Visual Studio 2015\Projects\Assembly\Assembly\Assembly.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.14

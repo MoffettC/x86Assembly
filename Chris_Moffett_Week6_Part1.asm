@@ -1,7 +1,7 @@
 ; Program Name:  Chris_Moffett_Week6_Part1
 ; Program Description: Reverse string with modules
 ; Author: Christopher Moffett
-; Date:   9/28/2016
+; Date:   10/1/2016
 
 .386
 .model flat,c		; C calling convention
@@ -15,23 +15,24 @@ includelib ucrt
 
 ; Declare the external procedures we will be calling
 extern ReverseString:PROC	; my modular proc
-
-STDIN EQU 0
-STDOUT EQU 1
+extern exit:PROC
 
 .data
-nl		dword 0ah		; new line character
 fwdString byte "A super calloused fragile mystic hexed by halitosis",0
 stringSize = ($ - fwdString) - 1
 rvdString byte ?
 
 .code
 main proc
-mov ecx, stringSize		;load loop count
-push OFFSET fwdString
-push OFFSET rvdString
-call ReverseString
-		
-main endp
 
+	mov  ecx, stringSize
+	push ecx				;push loop counter on stack so module can pop it (unnecessary argument?)
+	push OFFSET fwdString	;push offsets
+	push OFFSET rvdString
+
+	call ReverseString
+	add	 esp, 12			;inc stack pointer
+
+	call exit
+main endp
 end main

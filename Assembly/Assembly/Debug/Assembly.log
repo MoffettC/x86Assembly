@@ -1,0 +1,29 @@
+﻿Build started 10/19/2016 6:44:50 AM.
+     1>Project "C:\Users\20ninjas\Documents\Visual Studio 2015\Projects\Assembly\Assembly\Assembly.vcxproj" on node 2 (Build target(s)).
+     1>_MASM:
+         Assembling Chris_Moffett_Week8_Group_AddSub.asm...
+       _MASM:
+         Assembling Chris_Moffett_Week7_Part1.asm...
+       _MASM:
+         Assembling Chris_Moffett_Week8_Part1.asm...
+       _MASM:
+         Assembling Chris_Moffett_Week9_Group.asm...
+       _MASM:
+         Assembling I:\Downloads\Lingo_Mul.asm...
+       ClCompile:
+         I:\VisualStudio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\AssemblyReferences\c_string_examples\c_string_examples\main.c
+         main.c
+     1>c:\users\20ninjas\documents\visual studio 2015\projects\assemblyreferences\c_string_examples\c_string_examples\main.c(60): warning C4013: 'strtokASM' undefined; assuming extern returning int
+     1>c:\users\20ninjas\documents\visual studio 2015\projects\assemblyreferences\c_string_examples\c_string_examples\main.c(60): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
+     1>c:\users\20ninjas\documents\visual studio 2015\projects\assemblyreferences\c_string_examples\c_string_examples\main.c(64): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
+     1>c:\users\20ninjas\documents\visual studio 2015\projects\assemblyreferences\c_string_examples\c_string_examples\main.c(31): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+       Link:
+         I:\VisualStudio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\20ninjas\Documents\Visual Studio 2015\Projects\Assembly\Debug\Assembly.exe" /INCREMENTAL /NOLOGO /LIBPATH:I:\Irvine msvcrtd.lib legacy_stdio_definitions.lib ucrt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\20ninjas\Documents\Visual Studio 2015\Projects\Assembly\Debug\Assembly.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"C:\Users\20ninjas\Documents\Visual Studio 2015\Projects\Assembly\Debug\Assembly.lib" /MACHINE:X86 /SAFESEH:NO Debug\main.obj
+         Debug\string_functions.obj
+         Assembly.vcxproj -> C:\Users\20ninjas\Documents\Visual Studio 2015\Projects\Assembly\Debug\Assembly.exe
+     1>Done Building Project "C:\Users\20ninjas\Documents\Visual Studio 2015\Projects\Assembly\Assembly\Assembly.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.29
